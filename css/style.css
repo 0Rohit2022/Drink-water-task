@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    margin: 10px 0 0;
+}
+h3{
+    margin: 10px 0;
+    font-weight: 800;
+}
+.cup{
+    background-color: white;
+    border: 2px solid rgb(48, 116, 243);
+    color: rgb(48, 116, 243) ;
+    border-radius: 0 0 40px 40px;
+    height: 330px;
+    width: 150px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;    
+}
+.cup.cup-small{
+    width: 50px;
+    height: 90px;
+    border-radius: 0 0 15px 15px;
+    background-color: rgba(255,255 ,255 ,0.9 );
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    transition: 0.4s ease-in;
+}
+
+.cups{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+}
+.cup.cup-small.full{
+    background-color: #6ab3f8;
+    color: white;
+
+}
+
+.remained{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    transition: 0.4s ease ;
+}
+
+.remained span{
+    font-size: 19px;
+    font-weight: 800;
+
+}
+.remained small{
+    font-size: 12px;
+
+}
+.percentage{
+    background-color:  #6ab3f8;
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    transition: 0.4s ease;
+    color: white;
+}
+
+.text{
+    text-align: center;
+    margin: 0 0 5px;
+}
+.per{
+    font-size: 12px;
+}
+
